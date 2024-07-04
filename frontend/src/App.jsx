@@ -1,12 +1,15 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Nav from "./Components/Nav";
+import Hero from "./Components/Hero";
+import PopBlogs from "./Components/PopBlogs";
 
 function App() {
   return (
     <>
-      <h1></h1>
+      <Nav />
+      <Hero />
+      <PopBlogs />
     </>
   );
 }
