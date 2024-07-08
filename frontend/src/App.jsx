@@ -9,7 +9,7 @@ function App() {
     <>
       <Nav />
       <Hero />
-      <PopBlogs />
+      {/* <PopBlogs /> */}
     </>
   );
 }
